@@ -1,6 +1,7 @@
 
 const $ = require('jquery');
 const _ = require('lodash');
+const happyMessage = require('./sayHello.js');
 
 let hello = () => console.log("Hello");
 hello();
@@ -17,3 +18,5 @@ let testArray = [1,2,3,4,5,6,7,8,9,10];
 //console.log(odds);
 //console.log(reduceArray);
 // console.log(random);
+
+happyMessage();
